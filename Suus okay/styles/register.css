@@ -48,6 +48,10 @@ body {
     font-size: 14px;
 }
 
+.al{
+    text-align: left;
+}
+
 .login__container--remember {
     color: black;
     display: flex;
