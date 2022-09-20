@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+
+*{
+  font-family: 'Merriweather', serif;
+}
+
+body{
+  background-image: url(../img/Fondo_P.jpg);
+  background-repeat: no-repeat;
+  background-size:cover;
+  display: flex;
+  justify-content: flex-end;
+  margin: 200px 250px 0px 0px;
+}
+
+.text{
+  text-align: center;
+  font-size: 30px;
+  max-width: 500px;
+}
+
+button{
+  height: 100px;
+  width: 375px;
+  font-size: 30px ;
+  font-weight: bold;
+  border-radius: 50px;
+  background-image: url(../img/nube.jfif);
+  background-size: cover;
+  margin-top: 50px;
+}
+
+button a{
+  text-decoration: none;
+  color: black;
+}
