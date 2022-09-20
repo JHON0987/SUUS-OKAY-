@@ -23,14 +23,14 @@ body {
 
 .logo img{
     width: 400px;
-    margin: 40px;
+    margin: 25px;
 }
 
 .login__container {
     background-color: white;
     border: 5px solid #a0cfcf;
     color: black;
-    padding: 60px;
+    padding: 40px;
     min-height: 400px;
     width: 310px;
     border-radius: 40px;
