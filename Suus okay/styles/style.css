@@ -81,6 +81,11 @@ a{
     margin-right: 30px;
   }
 
+  .menu ul li:hover{
+    background-color: white;
+    height: 100%;
+  }
+
  .logo{
   margin-top:50px;
   display: flex;
