@@ -107,6 +107,11 @@ button{
   background-image: url(../img/nube.jfif);
   background-size: cover;
   margin-top: 50px;
+  border: solid white;
+}
+
+button:hover{
+  border: solid lightgray;
 }
 
 button a{

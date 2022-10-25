@@ -147,13 +147,11 @@ a{
   border-radius: 10px;
   background: linear-gradient( to left, #e5e7fa, #d8daff);
   border: solid rgb(181, 184, 243);
-  transition-duration: 0.5s;
-  
+  transition-duration: 1s;
 }
 .inter button:hover{
-  width: 300px;
-  height: 100px;
-  margin-bottom: -30px;
+  border: solid rgb(106, 114, 224);
+  background: linear-gradient( to left, #d2d7ff, #9ea3f8);
 }
 
 .inter button:active{
