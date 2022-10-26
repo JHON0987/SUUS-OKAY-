@@ -1,14 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
 
 *{
-  font-family: 'Merriweather', serif;
+  font-family: 'Amatic SC', cursive;
 }
 
 body{
-  background-image: url(../img/Fondo_P.jpg);
-  background-color: rgb(134, 208, 245);
-  background-repeat: no-repeat;
-  display: flex;
+
+  background: linear-gradient(to bottom, rgb(145, 208, 252), rgba(169, 255, 255, 0.362));
   flex-direction: column;
 }
 
@@ -87,31 +85,40 @@ header{
 
 .content2{
   display: flex;
-  justify-content: flex-end;
-  margin-right:14% ;
-  margin-top: 6%;
+  justify-content: flex-start;
+  align-items: center;
+  width: 88%;
+  height: 900px ;
+  margin: 6%;
+  background-image: url(../img/ferb.png);
+  background-size: cover;
 }
 
 .text{
   text-align: center;
-  font-size: 30px;
+  font-size: 40px;
   max-width: 500px;
+  margin-left: 6%;
+  color: white;
 }
 
 button{
-  height: 100px;
-  width: 375px;
-  font-size: 30px ;
+  height: 90px;
+  width: 355px;
+  font-size: 50px ;
   font-weight: bold;
-  border-radius: 50px;
-  background-image: url(../img/nube.jfif);
-  background-size: cover;
+  border-radius: 20px;
   margin-top: 50px;
-  border: solid white;
+  background: url(../img/tablab.png);
+  border: solid rgb(124, 78, 26);
+  cursor: pointer;
+  
 }
 
 button:hover{
-  border: solid lightgray;
+  border: solid rgb(67, 40, 10);
+  background: url(../img/tablao.png);
+
 }
 
 button a{
@@ -122,6 +129,7 @@ button a{
 .galery {
   margin: 330px auto 0;
   display: grid;
+  justify-content: center;
   grid-template-columns: repeat(5, 300px);
   grid-gap: 40px;
 }
