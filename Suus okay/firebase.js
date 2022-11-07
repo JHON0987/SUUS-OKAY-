@@ -20,7 +20,6 @@ const db = getFirestore();
 
 //exporta los datos de correo y contraseña
 
-export const saveTasks = (correo, contraseña) => {
-    //console.log(correo, contraseña)
-    addDoc(collection(db, 'SuusOkayLogin'), {correo, contraseña})
+export const saveTask = (correo, contraseña) => {
+  addDoc(collection(db, 'SuusOkayLogin'), {correo, contraseña})
 } 
