@@ -1,7 +1,0 @@
-{
-  "dependencies": {
-    "base": "^3.0.0",
-    "fire": "^0.55.1",
-    "firebase": "^9.13.0"
-  }
-}
